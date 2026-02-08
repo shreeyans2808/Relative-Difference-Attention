@@ -1,0 +1,939 @@
+| Step: 5000 | Epoch: 0 | LR: 0.000000 | Loss: 10.3942 | Test Acc: 0.0000 | Test Loss: 10.4071 |
+| Step:    5000 | Epoch:   0 | LR: 0.00000000 | Train Acc: 0.0000 | Train Loss: 10.3872 | Test Acc: 0.0001 | Test Loss: 10.3919 |
+| Step:    1000 | Epoch:   0 | LR: 0.00017784 | Train Acc: 0.1190 | Train Loss: 6.7175 | Test Acc: 0.1122 | Test Loss: 7.6494 |
+| Step:    2000 | Epoch:   0 | LR: 0.00035253 | Train Acc: 0.1755 | Train Loss: 5.9004 | Test Acc: 0.1275 | Test Loss: 7.4376 |
+| Step:    3000 | Epoch:   0 | LR: 0.00052722 | Train Acc: 0.1667 | Train Loss: 5.9196 | Test Acc: 0.1501 | Test Loss: 7.1473 |
+| Step:    4000 | Epoch:   0 | LR: 0.00069720 | Train Acc: 0.1739 | Train Loss: 5.8584 | Test Acc: 0.1546 | Test Loss: 7.0671 |
+| Step:    5000 | Epoch:   0 | LR: 0.00062388 | Train Acc: 0.1838 | Train Loss: 5.6339 | Test Acc: 0.1615 | Test Loss: 7.0090 |
+| Step:    6000 | Epoch:   0 | LR: 0.00056969 | Train Acc: 0.2529 | Train Loss: 5.2177 | Test Acc: 0.1678 | Test Loss: 6.9494 |
+| Step:    7000 | Epoch:   0 | LR: 0.00052754 | Train Acc: 0.2270 | Train Loss: 5.4310 | Test Acc: 0.1692 | Test Loss: 6.8012 |
+| Step:    8000 | Epoch:   0 | LR: 0.00049355 | Train Acc: 0.2314 | Train Loss: 5.4003 | Test Acc: 0.1782 | Test Loss: 6.8572 |
+| Step:    9000 | Epoch:   0 | LR: 0.00046538 | Train Acc: 0.1915 | Train Loss: 5.9426 | Test Acc: 0.1753 | Test Loss: 6.7468 |
+| Step:   10000 | Epoch:   0 | LR: 0.00044154 | Train Acc: 0.2626 | Train Loss: 5.4801 | Test Acc: 0.1818 | Test Loss: 6.7591 |
+| Step:   11000 | Epoch:   0 | LR: 0.00042103 | Train Acc: 0.2113 | Train Loss: 5.3588 | Test Acc: 0.1780 | Test Loss: 6.7493 |
+| Step:   12000 | Epoch:   0 | LR: 0.00040313 | Train Acc: 0.2691 | Train Loss: 5.2389 | Test Acc: 0.1802 | Test Loss: 6.7403 |
+| Step:   13000 | Epoch:   0 | LR: 0.00038734 | Train Acc: 0.2151 | Train Loss: 5.4626 | Test Acc: 0.1819 | Test Loss: 6.6942 |
+| Step:    1000 | Epoch:   0 | LR: 0.00017487 | Train Acc: 0.1713 | Train Loss: 5.9164 | Test Acc: 0.1423 | Test Loss: 7.1821 |
+| Step:    2000 | Epoch:   0 | LR: 0.00034956 | Train Acc: 0.2186 | Train Loss: 5.6403 | Test Acc: 0.1501 | Test Loss: 6.9851 |
+| Step:    3000 | Epoch:   0 | LR: 0.00052425 | Train Acc: 0.1944 | Train Loss: 5.6563 | Test Acc: 0.1418 | Test Loss: 7.0020 |
+| Step:    4000 | Epoch:   0 | LR: 0.00069868 | Train Acc: 0.1770 | Train Loss: 5.9755 | Test Acc: 0.1463 | Test Loss: 6.9022 |
+| Step:    5000 | Epoch:   0 | LR: 0.00062494 | Train Acc: 0.1923 | Train Loss: 5.6983 | Test Acc: 0.1550 | Test Loss: 6.8487 |
+| Step:    6000 | Epoch:   0 | LR: 0.00057050 | Train Acc: 0.2244 | Train Loss: 5.5094 | Test Acc: 0.1594 | Test Loss: 6.8200 |
+| Step:    7000 | Epoch:   0 | LR: 0.00052818 | Train Acc: 0.2492 | Train Loss: 5.3486 | Test Acc: 0.1619 | Test Loss: 6.8133 |
+| Step:    8000 | Epoch:   0 | LR: 0.00049408 | Train Acc: 0.2198 | Train Loss: 5.5176 | Test Acc: 0.1432 | Test Loss: 6.8181 |
+| Step:    9000 | Epoch:   0 | LR: 0.00046582 | Train Acc: 0.2431 | Train Loss: 5.4423 | Test Acc: 0.1649 | Test Loss: 6.7590 |
+| Step:   10000 | Epoch:   0 | LR: 0.00044192 | Train Acc: 0.2108 | Train Loss: 5.5133 | Test Acc: 0.1676 | Test Loss: 6.7726 |
+| Step:   11000 | Epoch:   0 | LR: 0.00042136 | Train Acc: 0.2248 | Train Loss: 5.1614 | Test Acc: 0.1659 | Test Loss: 6.7377 |
+| Step:   12000 | Epoch:   0 | LR: 0.00040342 | Train Acc: 0.1788 | Train Loss: 5.7740 | Test Acc: 0.1688 | Test Loss: 6.7526 |
+| Step:   13000 | Epoch:   0 | LR: 0.00038759 | Train Acc: 0.2665 | Train Loss: 5.2850 | Test Acc: 0.1713 | Test Loss: 6.6895 |
+| Step:   14000 | Epoch:   0 | LR: 0.00037350 | Train Acc: 0.2104 | Train Loss: 5.3920 | Test Acc: 0.1735 | Test Loss: 6.6959 |
+| Step:   15000 | Epoch:   0 | LR: 0.00036083 | Train Acc: 0.2602 | Train Loss: 5.3238 | Test Acc: 0.1756 | Test Loss: 6.6902 |
+| Step:   16000 | Epoch:   0 | LR: 0.00034937 | Train Acc: 0.2148 | Train Loss: 5.3718 | Test Acc: 0.1756 | Test Loss: 6.6934 |
+| Step:   17000 | Epoch:   0 | LR: 0.00033894 | Train Acc: 0.2302 | Train Loss: 5.3026 | Test Acc: 0.1730 | Test Loss: 6.6543 |
+| Step:   18000 | Epoch:   0 | LR: 0.00032939 | Train Acc: 0.2455 | Train Loss: 5.0889 | Test Acc: 0.1759 | Test Loss: 6.7015 |
+| Step:    1000 | Epoch:   0 | LR: 0.00017487 | Train Acc: 0.1179 | Train Loss: 6.7618 | Test Acc: 0.1003 | Test Loss: 7.6858 |
+| Step:    2000 | Epoch:   0 | LR: 0.00034956 | Train Acc: 0.1346 | Train Loss: 6.2783 | Test Acc: 0.1391 | Test Loss: 7.2564 |
+| Step:    3000 | Epoch:   0 | LR: 0.00052425 | Train Acc: 0.1809 | Train Loss: 5.8016 | Test Acc: 0.1461 | Test Loss: 7.1490 |
+| Step:    4000 | Epoch:   0 | LR: 0.00069868 | Train Acc: 0.1852 | Train Loss: 5.7329 | Test Acc: 0.1529 | Test Loss: 6.9997 |
+| Step:    5000 | Epoch:   0 | LR: 0.00062494 | Train Acc: 0.1969 | Train Loss: 5.5602 | Test Acc: 0.1633 | Test Loss: 6.9397 |
+| Step:    6000 | Epoch:   0 | LR: 0.00057050 | Train Acc: 0.1964 | Train Loss: 5.7743 | Test Acc: 0.1634 | Test Loss: 6.8540 |
+| Step:    7000 | Epoch:   0 | LR: 0.00052818 | Train Acc: 0.2617 | Train Loss: 5.3664 | Test Acc: 0.1676 | Test Loss: 6.8289 |
+| Step:    8000 | Epoch:   0 | LR: 0.00049408 | Train Acc: 0.2522 | Train Loss: 5.5403 | Test Acc: 0.1714 | Test Loss: 6.8177 |
+| Step:    9000 | Epoch:   0 | LR: 0.00046582 | Train Acc: 0.2319 | Train Loss: 5.3571 | Test Acc: 0.1734 | Test Loss: 6.7826 |
+| Step:   10000 | Epoch:   0 | LR: 0.00044192 | Train Acc: 0.2140 | Train Loss: 5.3540 | Test Acc: 0.1765 | Test Loss: 6.7129 |
+| Step:   11000 | Epoch:   0 | LR: 0.00042136 | Train Acc: 0.2161 | Train Loss: 5.5025 | Test Acc: 0.1780 | Test Loss: 6.7087 |
+| Step:   12000 | Epoch:   0 | LR: 0.00040342 | Train Acc: 0.2462 | Train Loss: 5.3937 | Test Acc: 0.1771 | Test Loss: 6.7134 |
+| Step:   13000 | Epoch:   0 | LR: 0.00038759 | Train Acc: 0.2556 | Train Loss: 5.2652 | Test Acc: 0.1772 | Test Loss: 6.7078 |
+| Step:   14000 | Epoch:   0 | LR: 0.00037350 | Train Acc: 0.2350 | Train Loss: 5.2854 | Test Acc: 0.1792 | Test Loss: 6.6684 |
+| Step:   15000 | Epoch:   0 | LR: 0.00036083 | Train Acc: 0.2014 | Train Loss: 5.5262 | Test Acc: 0.1786 | Test Loss: 6.7209 |
+| Step:   16000 | Epoch:   0 | LR: 0.00034937 | Train Acc: 0.2354 | Train Loss: 5.2262 | Test Acc: 0.1806 | Test Loss: 6.7060 |
+| Step:   17000 | Epoch:   0 | LR: 0.00033894 | Train Acc: 0.2271 | Train Loss: 5.6544 | Test Acc: 0.1825 | Test Loss: 6.7065 |
+| Step:   18000 | Epoch:   0 | LR: 0.00032939 | Train Acc: 0.2857 | Train Loss: 4.9964 | Test Acc: 0.1568 | Test Loss: 6.6729 |
+| Step:   19000 | Epoch:   0 | LR: 0.00032061 | Train Acc: 0.2322 | Train Loss: 5.4901 | Test Acc: 0.1823 | Test Loss: 6.6237 |
+| Step:   20000 | Epoch:   0 | LR: 0.00031249 | Train Acc: 0.2080 | Train Loss: 5.3792 | Test Acc: 0.1809 | Test Loss: 6.6344 |
+| Step:   21000 | Epoch:   0 | LR: 0.00030496 | Train Acc: 0.2162 | Train Loss: 5.5018 | Test Acc: 0.1805 | Test Loss: 6.6466 |
+| Step:   22000 | Epoch:   0 | LR: 0.00029795 | Train Acc: 0.2249 | Train Loss: 5.2194 | Test Acc: 0.1809 | Test Loss: 6.6774 |
+| Step:   23000 | Epoch:   0 | LR: 0.00029140 | Train Acc: 0.2025 | Train Loss: 5.5254 | Test Acc: 0.1822 | Test Loss: 6.6711 |
+| Step:   24000 | Epoch:   0 | LR: 0.00028527 | Train Acc: 0.2776 | Train Loss: 5.1711 | Test Acc: 0.1845 | Test Loss: 6.6299 |
+| Step:   25000 | Epoch:   0 | LR: 0.00027950 | Train Acc: 0.2205 | Train Loss: 5.2728 | Test Acc: 0.1819 | Test Loss: 6.6342 |
+| Step:   26000 | Epoch:   0 | LR: 0.00027408 | Train Acc: 0.2404 | Train Loss: 5.5186 | Test Acc: 0.1806 | Test Loss: 6.6399 |
+| Step:   27000 | Epoch:   0 | LR: 0.00026895 | Train Acc: 0.2655 | Train Loss: 5.1558 | Test Acc: 0.1808 | Test Loss: 6.5961 |
+| Step:   28000 | Epoch:   0 | LR: 0.00026411 | Train Acc: 0.2421 | Train Loss: 5.2117 | Test Acc: 0.1828 | Test Loss: 6.6091 |
+| Step:   29000 | Epoch:   0 | LR: 0.00025951 | Train Acc: 0.2400 | Train Loss: 5.2453 | Test Acc: 0.1830 | Test Loss: 6.6096 |
+| Step:   30000 | Epoch:   0 | LR: 0.00025515 | Train Acc: 0.2565 | Train Loss: 5.2052 | Test Acc: 0.1859 | Test Loss: 6.6189 |
+| Step:   31000 | Epoch:   0 | LR: 0.00025100 | Train Acc: 0.2420 | Train Loss: 5.3013 | Test Acc: 0.1835 | Test Loss: 6.6200 |
+| Step:   32000 | Epoch:   0 | LR: 0.00024705 | Train Acc: 0.2409 | Train Loss: 5.0595 | Test Acc: 0.1839 | Test Loss: 6.5917 |
+| Step:   33000 | Epoch:   0 | LR: 0.00024328 | Train Acc: 0.2505 | Train Loss: 5.5823 | Test Acc: 0.1852 | Test Loss: 6.5866 |
+| Step:   34000 | Epoch:   0 | LR: 0.00023967 | Train Acc: 0.3087 | Train Loss: 4.9885 | Test Acc: 0.1861 | Test Loss: 6.5877 |
+| Step:   35000 | Epoch:   0 | LR: 0.00023622 | Train Acc: 0.2694 | Train Loss: 5.1902 | Test Acc: 0.1882 | Test Loss: 6.5498 |
+| Step:   36000 | Epoch:   0 | LR: 0.00023292 | Train Acc: 0.2901 | Train Loss: 5.0085 | Test Acc: 0.1860 | Test Loss: 6.5714 |
+| Step:   37000 | Epoch:   0 | LR: 0.00022975 | Train Acc: 0.3226 | Train Loss: 5.0101 | Test Acc: 0.1854 | Test Loss: 6.5552 |
+| Step:   38000 | Epoch:   0 | LR: 0.00022671 | Train Acc: 0.2552 | Train Loss: 5.1157 | Test Acc: 0.1856 | Test Loss: 6.5885 |
+| Step:   39000 | Epoch:   0 | LR: 0.00022378 | Train Acc: 0.2603 | Train Loss: 5.0924 | Test Acc: 0.1894 | Test Loss: 6.5898 |
+| Step:   40000 | Epoch:   0 | LR: 0.00022097 | Train Acc: 0.2217 | Train Loss: 5.3115 | Test Acc: 0.1891 | Test Loss: 6.5559 |
+| Step:   41000 | Epoch:   0 | LR: 0.00021826 | Train Acc: 0.2100 | Train Loss: 5.4412 | Test Acc: 0.1705 | Test Loss: 6.5268 |
+| Step:   42000 | Epoch:   0 | LR: 0.00021564 | Train Acc: 0.2434 | Train Loss: 5.3480 | Test Acc: 0.1863 | Test Loss: 6.5839 |
+| Step:   43000 | Epoch:   0 | LR: 0.00021312 | Train Acc: 0.3203 | Train Loss: 4.7675 | Test Acc: 0.1872 | Test Loss: 6.5354 |
+| Step:   44000 | Epoch:   0 | LR: 0.00021069 | Train Acc: 0.2687 | Train Loss: 5.1311 | Test Acc: 0.1889 | Test Loss: 6.5630 |
+| Step:   45000 | Epoch:   0 | LR: 0.00020833 | Train Acc: 0.2234 | Train Loss: 5.3909 | Test Acc: 0.1899 | Test Loss: 6.5531 |
+| Step:   46000 | Epoch:   0 | LR: 0.00020605 | Train Acc: 0.2003 | Train Loss: 5.3879 | Test Acc: 0.1919 | Test Loss: 6.5050 |
+| Step:   47000 | Epoch:   0 | LR: 0.00020385 | Train Acc: 0.2409 | Train Loss: 5.1880 | Test Acc: 0.1913 | Test Loss: 6.5464 |
+| Step:   48000 | Epoch:   0 | LR: 0.00020172 | Train Acc: 0.2441 | Train Loss: 5.3788 | Test Acc: 0.1894 | Test Loss: 6.5482 |
+| Step:   49000 | Epoch:   0 | LR: 0.00019965 | Train Acc: 0.2428 | Train Loss: 5.2867 | Test Acc: 0.1908 | Test Loss: 6.5611 |
+| Step:   50000 | Epoch:   0 | LR: 0.00019764 | Train Acc: 0.2812 | Train Loss: 5.0908 | Test Acc: 0.1926 | Test Loss: 6.5612 |
+| Step:   51000 | Epoch:   0 | LR: 0.00019569 | Train Acc: 0.2622 | Train Loss: 5.2259 | Test Acc: 0.1880 | Test Loss: 6.5303 |
+| Step:   52000 | Epoch:   0 | LR: 0.00019380 | Train Acc: 0.2618 | Train Loss: 5.2203 | Test Acc: 0.1924 | Test Loss: 6.5338 |
+| Step:   53000 | Epoch:   0 | LR: 0.00019197 | Train Acc: 0.2305 | Train Loss: 5.1583 | Test Acc: 0.1930 | Test Loss: 6.5195 |
+| Step:   54000 | Epoch:   0 | LR: 0.00019018 | Train Acc: 0.3047 | Train Loss: 4.9152 | Test Acc: 0.1818 | Test Loss: 6.5530 |
+| Step:   55000 | Epoch:   0 | LR: 0.00018844 | Train Acc: 0.2600 | Train Loss: 5.0524 | Test Acc: 0.1897 | Test Loss: 6.5766 |
+| Step:   56000 | Epoch:   0 | LR: 0.00018675 | Train Acc: 0.2572 | Train Loss: 5.2377 | Test Acc: 0.1922 | Test Loss: 6.5279 |
+| Step:    1000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1671 | Train Loss: 6.4887 |
+| Test Acc:  0.1313 | Test Loss:  7.4327 |
+| Test F1:   0.0880 | Test BLEU:  0.0023 |
+---------------------------------------------------------------------------
+| Step:    2000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1473 | Train Loss: 6.8184 |
+| Test Acc:  0.1297 | Test Loss:  7.5262 |
+| Test F1:   0.0846 | Test BLEU:  0.0014 |
+---------------------------------------------------------------------------
+| Step:    3000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1633 | Train Loss: 6.6230 |
+| Test Acc:  0.1268 | Test Loss:  7.4824 |
+| Test F1:   0.0716 | Test BLEU:  0.0008 |
+---------------------------------------------------------------------------
+| Step:    4000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1212 | Train Loss: 6.5006 |
+| Test Acc:  0.1080 | Test Loss:  7.4640 |
+| Test F1:   0.0652 | Test BLEU:  0.0006 |
+---------------------------------------------------------------------------
+| Step:    5000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1436 | Train Loss: 6.4116 |
+| Test Acc:  0.1161 | Test Loss:  7.4845 |
+| Test F1:   0.0789 | Test BLEU:  0.0000 |
+---------------------------------------------------------------------------
+| Step:    6000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1971 | Train Loss: 6.0537 |
+| Test Acc:  0.1270 | Test Loss:  7.3923 |
+| Test F1:   0.0834 | Test BLEU:  0.0006 |
+---------------------------------------------------------------------------
+| Step:       0 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1723 | Train Loss: 1.6445 |
+| Test Acc:  0.1291 | Test Loss:  7.3696 |
+| Test F1:   0.0817 | Test BLEU:  0.0000 |
+---------------------------------------------------------------------------
+| Step:       0 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1457 | Train Loss: 1.6110 |
+| Test Acc:  0.1291 | Test Loss:  7.3706 |
+| Test F1:   0.0817 | Test BLEU:  0.0000 |
+---------------------------------------------------------------------------
+| Step:       0 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1785 | Train Loss: 1.5399 |
+| Test Acc:  0.1291 | Test Loss:  7.3724 |
+| Test F1:   0.0817 | Test BLEU:  0.0000 |
+---------------------------------------------------------------------------
+| Step:       0 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1438 | Train Loss: 1.5613 |
+| Test Acc:  0.1291 | Test Loss:  7.3710 |
+| Test F1:   0.0817 | Test BLEU:  0.0000 |
+---------------------------------------------------------------------------
+| Step:    1000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.5164 | Train Loss: 1.1866 |
+| Test Acc:  0.4919 | Test Loss:  5.4042 |
+| Test F1:   0.4231 | Test BLEU:  0.0594 |
+---------------------------------------------------------------------------
+| Step:    1000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.5551 | Train Loss: 1.0927 |
+| Test Acc:  0.4919 | Test Loss:  5.4073 |
+| Test F1:   0.4231 | Test BLEU:  0.0598 |
+---------------------------------------------------------------------------
+| Step:    1000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.5551 | Train Loss: 1.1217 |
+| Test Acc:  0.4919 | Test Loss:  5.4047 |
+| Test F1:   0.4231 | Test BLEU:  0.0596 |
+---------------------------------------------------------------------------
+| Step:    1000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.5712 | Train Loss: 1.0407 |
+| Test Acc:  0.4919 | Test Loss:  5.4024 |
+| Test F1:   0.4231 | Test BLEU:  0.0597 |
+---------------------------------------------------------------------------
+| Step:    1000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.6793 | Train Loss: 3.6288 |
+| Test Acc:  0.5919 | Test Loss:  4.6960 |
+| Test F1:   0.5121 | Test BLEU:  0.2429 |
+---------------------------------------------------------------------------
+| Step:    2000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.6858 | Train Loss: 3.6420 |
+| Test Acc:  0.5904 | Test Loss:  4.7003 |
+| Test F1:   0.5265 | Test BLEU:  0.2416 |
+---------------------------------------------------------------------------
+| Step:    3000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.6955 | Train Loss: 3.5681 |
+| Test Acc:  0.5952 | Test Loss:  4.6223 |
+| Test F1:   0.5411 | Test BLEU:  0.1208 |
+---------------------------------------------------------------------------
+| Step:    4000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.7446 | Train Loss: 3.3325 |
+| Test Acc:  0.5976 | Test Loss:  4.6008 |
+| Test F1:   0.5446 | Test BLEU:  0.1308 |
+---------------------------------------------------------------------------
+| Step:    5000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.7166 | Train Loss: 3.4341 |
+| Test Acc:  0.6235 | Test Loss:  4.4127 |
+| Test F1:   0.5621 | Test BLEU:  0.1395 |
+---------------------------------------------------------------------------
+| Step:    6000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.7040 | Train Loss: 3.5705 |
+| Test Acc:  0.6143 | Test Loss:  4.4363 |
+| Test F1:   0.5481 | Test BLEU:  0.1319 |
+---------------------------------------------------------------------------
+| Step:    7000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.6995 | Train Loss: 3.5208 |
+| Test Acc:  0.6236 | Test Loss:  4.3623 |
+| Test F1:   0.5567 | Test BLEU:  0.1402 |
+---------------------------------------------------------------------------
+| Step:    8000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.7126 | Train Loss: 3.4846 |
+| Test Acc:  0.6205 | Test Loss:  4.3781 |
+| Test F1:   0.5499 | Test BLEU:  0.1398 |
+---------------------------------------------------------------------------
+| Step:    9000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.7216 | Train Loss: 3.5434 |
+| Test Acc:  0.6396 | Test Loss:  4.2580 |
+| Test F1:   0.5590 | Test BLEU:  0.1508 |
+---------------------------------------------------------------------------
+| Step:   10000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.7157 | Train Loss: 3.4246 |
+| Test Acc:  0.6457 | Test Loss:  4.2276 |
+| Test F1:   0.5663 | Test BLEU:  0.1555 |
+---------------------------------------------------------------------------
+| Step:   11000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.7333 | Train Loss: 3.2754 |
+| Test Acc:  0.6468 | Test Loss:  4.2289 |
+| Test F1:   0.5674 | Test BLEU:  0.1569 |
+---------------------------------------------------------------------------
+| Step:   12000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.7071 | Train Loss: 3.5432 |
+| Test Acc:  0.6502 | Test Loss:  4.1981 |
+| Test F1:   0.5627 | Test BLEU:  0.1596 |
+---------------------------------------------------------------------------
+| Step:   13000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.7429 | Train Loss: 3.3625 |
+| Test Acc:  0.6384 | Test Loss:  4.2597 |
+| Test F1:   0.5633 | Test BLEU:  0.1508 |
+---------------------------------------------------------------------------
+| Step:   14000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.6588 | Train Loss: 3.7434 |
+| Test Acc:  0.6439 | Test Loss:  4.2319 |
+| Test F1:   0.5556 | Test BLEU:  0.1549 |
+---------------------------------------------------------------------------
+| Step:   15000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.7603 | Train Loss: 3.1576 |
+| Test Acc:  0.6451 | Test Loss:  4.2248 |
+| Test F1:   0.5671 | Test BLEU:  0.1545 |
+---------------------------------------------------------------------------
+| Step:   16000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.6742 | Train Loss: 3.6123 |
+| Test Acc:  0.5673 | Test Loss:  4.7341 |
+| Test F1:   0.4799 | Test BLEU:  0.1136 |
+---------------------------------------------------------------------------
+| Step:   17000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.7942 | Train Loss: 2.9027 |
+| Test Acc:  0.6317 | Test Loss:  4.3047 |
+| Test F1:   0.5613 | Test BLEU:  0.1462 |
+---------------------------------------------------------------------------
+| Step:   18000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.6907 | Train Loss: 3.6864 |
+| Test Acc:  0.6458 | Test Loss:  4.2167 |
+| Test F1:   0.5610 | Test BLEU:  0.1559 |
+---------------------------------------------------------------------------
+| Step:   19000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.7344 | Train Loss: 3.3469 |
+| Test Acc:  0.6480 | Test Loss:  4.2046 |
+| Test F1:   0.5682 | Test BLEU:  0.1561 |
+---------------------------------------------------------------------------
+| Step:   20000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.7055 | Train Loss: 3.5576 |
+| Test Acc:  0.6517 | Test Loss:  4.1874 |
+| Test F1:   0.5663 | Test BLEU:  0.1590 |
+---------------------------------------------------------------------------
+| Step:   21000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.7291 | Train Loss: 3.3105 |
+| Test Acc:  0.6493 | Test Loss:  4.1970 |
+| Test F1:   0.5610 | Test BLEU:  0.1576 |
+---------------------------------------------------------------------------
+| Step:   22000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.6740 | Train Loss: 3.5818 |
+| Test Acc:  0.6206 | Test Loss:  4.3738 |
+| Test F1:   0.5368 | Test BLEU:  0.1387 |
+---------------------------------------------------------------------------
+| Step:   23000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.7353 | Train Loss: 3.3673 |
+| Test Acc:  0.6507 | Test Loss:  4.1823 |
+| Test F1:   0.5706 | Test BLEU:  0.1594 |
+---------------------------------------------------------------------------
+| Step:   24000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.7534 | Train Loss: 3.2860 |
+| Test Acc:  0.6283 | Test Loss:  4.2933 |
+| Test F1:   0.5524 | Test BLEU:  0.1446 |
+---------------------------------------------------------------------------
+| Step:   25000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.6742 | Train Loss: 3.6434 |
+| Test Acc:  0.6218 | Test Loss:  4.3224 |
+| Test F1:   0.5482 | Test BLEU:  0.1410 |
+---------------------------------------------------------------------------
+| Step:   26000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.7505 | Train Loss: 3.2500 |
+| Test Acc:  0.5799 | Test Loss:  4.5738 |
+| Test F1:   0.5097 | Test BLEU:  0.1121 |
+---------------------------------------------------------------------------
+| Step:   27000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.7774 | Train Loss: 3.0952 |
+| Test Acc:  0.6015 | Test Loss:  4.4394 |
+| Test F1:   0.5206 | Test BLEU:  0.1272 |
+---------------------------------------------------------------------------
+| Step:   28000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.7365 | Train Loss: 3.4149 |
+| Test Acc:  0.6084 | Test Loss:  4.3979 |
+| Test F1:   0.5304 | Test BLEU:  0.1319 |
+---------------------------------------------------------------------------
+| Step:   29000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.7619 | Train Loss: 3.1398 |
+| Test Acc:  0.5644 | Test Loss:  4.6287 |
+| Test F1:   0.4891 | Test BLEU:  0.1035 |
+---------------------------------------------------------------------------
+| Step:   30000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.7733 | Train Loss: 3.1766 |
+| Test Acc:  0.5752 | Test Loss:  4.5698 |
+| Test F1:   0.4980 | Test BLEU:  0.1096 |
+---------------------------------------------------------------------------
+| Step:   31000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.6776 | Train Loss: 3.7868 |
+| Test Acc:  0.6312 | Test Loss:  4.2771 |
+| Test F1:   0.5464 | Test BLEU:  0.1474 |
+---------------------------------------------------------------------------
+| Step:   32000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.7553 | Train Loss: 3.1382 |
+| Test Acc:  0.5957 | Test Loss:  4.4555 |
+| Test F1:   0.5160 | Test BLEU:  0.1226 |
+---------------------------------------------------------------------------
+| Step:   33000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.7797 | Train Loss: 3.0832 |
+| Test Acc:  0.6005 | Test Loss:  4.4533 |
+| Test F1:   0.5232 | Test BLEU:  0.1250 |
+---------------------------------------------------------------------------
+| Step:   34000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.7058 | Train Loss: 3.4719 |
+| Test Acc:  0.5774 | Test Loss:  4.5588 |
+| Test F1:   0.4945 | Test BLEU:  0.1112 |
+---------------------------------------------------------------------------
+| Step:   35000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.7397 | Train Loss: 3.2976 |
+| Test Acc:  0.5647 | Test Loss:  4.6300 |
+| Test F1:   0.4815 | Test BLEU:  0.1026 |
+---------------------------------------------------------------------------
+| Step:   36000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.7002 | Train Loss: 3.5582 |
+| Test Acc:  0.5757 | Test Loss:  4.5595 |
+| Test F1:   0.4925 | Test BLEU:  0.1085 |
+---------------------------------------------------------------------------
+| Step:   37000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.7339 | Train Loss: 3.3677 |
+| Test Acc:  0.5588 | Test Loss:  4.5986 |
+| Test F1:   0.4731 | Test BLEU:  0.0994 |
+---------------------------------------------------------------------------
+| Step:   38000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.7155 | Train Loss: 3.5082 |
+| Test Acc:  0.5913 | Test Loss:  4.4714 |
+| Test F1:   0.5113 | Test BLEU:  0.1195 |
+---------------------------------------------------------------------------
+| Step:   39000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.7405 | Train Loss: 3.2730 |
+| Test Acc:  0.5996 | Test Loss:  4.4315 |
+| Test F1:   0.5181 | Test BLEU:  0.1254 |
+---------------------------------------------------------------------------
+| Step:   40000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.7298 | Train Loss: 3.3084 |
+| Test Acc:  0.5502 | Test Loss:  4.7009 |
+| Test F1:   0.4673 | Test BLEU:  0.0921 |
+---------------------------------------------------------------------------
+| Step:   41000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.7526 | Train Loss: 3.1519 |
+| Test Acc:  0.6001 | Test Loss:  4.4369 |
+| Test F1:   0.5214 | Test BLEU:  0.1252 |
+---------------------------------------------------------------------------
+| Step:   42000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.7407 | Train Loss: 3.2660 |
+| Test Acc:  0.5839 | Test Loss:  4.5103 |
+| Test F1:   0.5015 | Test BLEU:  0.1150 |
+---------------------------------------------------------------------------
+| Step:   43000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.7292 | Train Loss: 3.4205 |
+| Test Acc:  0.5589 | Test Loss:  4.6072 |
+| Test F1:   0.4776 | Test BLEU:  0.0988 |
+---------------------------------------------------------------------------
+| Step:   44000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.7706 | Train Loss: 3.0653 |
+| Test Acc:  0.5966 | Test Loss:  4.4396 |
+| Test F1:   0.5154 | Test BLEU:  0.1236 |
+---------------------------------------------------------------------------
+| Step:   45000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.7332 | Train Loss: 3.1703 |
+| Test Acc:  0.6295 | Test Loss:  4.2795 |
+| Test F1:   0.5385 | Test BLEU:  0.1452 |
+---------------------------------------------------------------------------
+| Step:   46000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.6966 | Train Loss: 3.5089 |
+| Test Acc:  0.6124 | Test Loss:  4.3546 |
+| Test F1:   0.5304 | Test BLEU:  0.1337 |
+---------------------------------------------------------------------------
+| Step:   47000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.7458 | Train Loss: 3.2072 |
+| Test Acc:  0.5867 | Test Loss:  4.5003 |
+| Test F1:   0.5029 | Test BLEU:  0.1163 |
+---------------------------------------------------------------------------
+| Step:   48000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.6033 | Train Loss: 4.1609 |
+| Test Acc:  0.5443 | Test Loss:  4.8281 |
+| Test F1:   0.4730 | Test BLEU:  0.1272 |
+---------------------------------------------------------------------------
+| Step:   49000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.7642 | Train Loss: 3.0952 |
+| Test Acc:  0.5956 | Test Loss:  4.4364 |
+| Test F1:   0.5129 | Test BLEU:  0.1221 |
+---------------------------------------------------------------------------
+| Step:   50000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.7235 | Train Loss: 3.3393 |
+| Test Acc:  0.6051 | Test Loss:  4.3703 |
+| Test F1:   0.5239 | Test BLEU:  0.1287 |
+---------------------------------------------------------------------------
+| Step:   51000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.7432 | Train Loss: 3.2994 |
+| Test Acc:  0.5835 | Test Loss:  4.4778 |
+| Test F1:   0.5001 | Test BLEU:  0.1150 |
+---------------------------------------------------------------------------
+| Step:   52000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.7444 | Train Loss: 3.2795 |
+| Test Acc:  0.5841 | Test Loss:  4.4851 |
+| Test F1:   0.5052 | Test BLEU:  0.1140 |
+---------------------------------------------------------------------------
+| Step:   53000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.7232 | Train Loss: 3.5018 |
+| Test Acc:  0.5850 | Test Loss:  4.5254 |
+| Test F1:   0.5057 | Test BLEU:  0.1158 |
+---------------------------------------------------------------------------
+| Step:   54000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.7461 | Train Loss: 3.1770 |
+| Test Acc:  0.6173 | Test Loss:  4.3288 |
+| Test F1:   0.5339 | Test BLEU:  0.1369 |
+---------------------------------------------------------------------------
+| Step:   55000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.7819 | Train Loss: 3.0605 |
+| Test Acc:  0.5926 | Test Loss:  4.4338 |
+| Test F1:   0.5053 | Test BLEU:  0.1208 |
+---------------------------------------------------------------------------
+| Step:   56000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.7535 | Train Loss: 3.1796 |
+| Test Acc:  0.6199 | Test Loss:  4.3309 |
+| Test F1:   0.5387 | Test BLEU:  0.1373 |
+---------------------------------------------------------------------------
+| Step:   57000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.7603 | Train Loss: 3.2125 |
+| Test Acc:  0.5511 | Test Loss:  4.6755 |
+| Test F1:   0.4680 | Test BLEU:  0.0938 |
+---------------------------------------------------------------------------
+| Step:   58000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.6910 | Train Loss: 3.7097 |
+| Test Acc:  0.5765 | Test Loss:  4.5283 |
+| Test F1:   0.4917 | Test BLEU:  0.1092 |
+---------------------------------------------------------------------------
+| Step:   59000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.7643 | Train Loss: 3.0974 |
+| Test Acc:  0.5521 | Test Loss:  4.6048 |
+| Test F1:   0.4682 | Test BLEU:  0.0984 |
+---------------------------------------------------------------------------
+| Step:   60000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.7471 | Train Loss: 3.1876 |
+| Test Acc:  0.5706 | Test Loss:  4.5268 |
+| Test F1:   0.4847 | Test BLEU:  0.1086 |
+---------------------------------------------------------------------------
+| Step:   61000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.7108 | Train Loss: 3.4842 |
+| Test Acc:  0.5896 | Test Loss:  4.4495 |
+| Test F1:   0.5101 | Test BLEU:  0.1183 |
+---------------------------------------------------------------------------
+| Step:   62000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.7783 | Train Loss: 3.0206 |
+| Test Acc:  0.6056 | Test Loss:  4.3759 |
+| Test F1:   0.5216 | Test BLEU:  0.1284 |
+---------------------------------------------------------------------------
+| Step:   63000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.7401 | Train Loss: 3.3364 |
+| Test Acc:  0.6173 | Test Loss:  4.3256 |
+| Test F1:   0.5376 | Test BLEU:  0.1361 |
+---------------------------------------------------------------------------
+| Step:   64000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.7500 | Train Loss: 3.2705 |
+| Test Acc:  0.5938 | Test Loss:  4.4249 |
+| Test F1:   0.5130 | Test BLEU:  0.1209 |
+---------------------------------------------------------------------------
+| Step:   65000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.7262 | Train Loss: 3.4069 |
+| Test Acc:  0.5082 | Test Loss:  4.8709 |
+| Test F1:   0.4231 | Test BLEU:  0.0698 |
+---------------------------------------------------------------------------
+| Step:   66000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.7175 | Train Loss: 3.4578 |
+| Test Acc:  0.5356 | Test Loss:  4.7010 |
+| Test F1:   0.4514 | Test BLEU:  0.0836 |
+---------------------------------------------------------------------------
+| Step:   67000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.7479 | Train Loss: 3.1720 |
+| Test Acc:  0.5627 | Test Loss:  4.5692 |
+| Test F1:   0.4768 | Test BLEU:  0.1010 |
+---------------------------------------------------------------------------
+| Step:   68000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.7582 | Train Loss: 3.1452 |
+| Test Acc:  0.6209 | Test Loss:  4.3104 |
+| Test F1:   0.5301 | Test BLEU:  0.1395 |
+---------------------------------------------------------------------------
+| Step:   69000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.8021 | Train Loss: 2.8837 |
+| Test Acc:  0.5648 | Test Loss:  4.5419 |
+| Test F1:   0.4775 | Test BLEU:  0.1029 |
+---------------------------------------------------------------------------
+| Step:   70000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.7556 | Train Loss: 3.2178 |
+| Test Acc:  0.5421 | Test Loss:  4.6294 |
+| Test F1:   0.4560 | Test BLEU:  0.0886 |
+---------------------------------------------------------------------------
+| Step:   71000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.7505 | Train Loss: 3.2123 |
+| Test Acc:  0.5550 | Test Loss:  4.5977 |
+| Test F1:   0.4670 | Test BLEU:  0.0961 |
+---------------------------------------------------------------------------
+| Step:   72000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.7472 | Train Loss: 3.0923 |
+| Test Acc:  0.5927 | Test Loss:  4.4283 |
+| Test F1:   0.5042 | Test BLEU:  0.1212 |
+---------------------------------------------------------------------------
+| Step:   73000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.6819 | Train Loss: 3.6137 |
+| Test Acc:  0.5437 | Test Loss:  4.8468 |
+| Test F1:   0.4747 | Test BLEU:  0.1118 |
+---------------------------------------------------------------------------
+| Step:   74000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.7484 | Train Loss: 3.1811 |
+| Test Acc:  0.5822 | Test Loss:  4.4796 |
+| Test F1:   0.4966 | Test BLEU:  0.1134 |
+---------------------------------------------------------------------------
+| Step:   75000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.7193 | Train Loss: 3.4798 |
+| Test Acc:  0.5960 | Test Loss:  4.4132 |
+| Test F1:   0.5159 | Test BLEU:  0.1210 |
+---------------------------------------------------------------------------
+| Step:   76000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.7495 | Train Loss: 3.2311 |
+| Test Acc:  0.5881 | Test Loss:  4.4604 |
+| Test F1:   0.5052 | Test BLEU:  0.1173 |
+---------------------------------------------------------------------------
+| Step:   77000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.7285 | Train Loss: 3.2606 |
+| Test Acc:  0.5647 | Test Loss:  4.5971 |
+| Test F1:   0.4820 | Test BLEU:  0.1021 |
+---------------------------------------------------------------------------
+| Step:   78000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.7273 | Train Loss: 3.3360 |
+| Test Acc:  0.6115 | Test Loss:  4.3549 |
+| Test F1:   0.5286 | Test BLEU:  0.1319 |
+---------------------------------------------------------------------------
+| Step:    1000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.0928 | Train Loss: 6.9658 |
+| Test Acc:  0.1076 | Test Loss:  7.6481 |
+| Test F1:   0.0725 | Test BLEU:  0.0000 |
+---------------------------------------------------------------------------
+| Step:    2000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1362 | Train Loss: 6.8205 |
+| Test Acc:  0.1158 | Test Loss:  7.6387 |
+| Test F1:   0.0726 | Test BLEU:  0.0000 |
+---------------------------------------------------------------------------
+| Step:    3000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1163 | Train Loss: 6.7675 |
+| Test Acc:  0.1150 | Test Loss:  7.5443 |
+| Test F1:   0.0732 | Test BLEU:  0.0000 |
+---------------------------------------------------------------------------
+| Step:    4000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1149 | Train Loss: 6.7400 |
+| Test Acc:  0.1185 | Test Loss:  7.4861 |
+| Test F1:   0.0602 | Test BLEU:  0.0000 |
+---------------------------------------------------------------------------
+| Step:    5000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1304 | Train Loss: 6.4409 |
+| Test Acc:  0.1232 | Test Loss:  7.4052 |
+| Test F1:   0.0782 | Test BLEU:  0.0006 |
+---------------------------------------------------------------------------
+| Step:    6000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1142 | Train Loss: 6.4474 |
+| Test Acc:  0.1245 | Test Loss:  7.3393 |
+| Test F1:   0.0829 | Test BLEU:  0.0007 |
+---------------------------------------------------------------------------
+| Step:    7000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1621 | Train Loss: 6.1763 |
+| Test Acc:  0.1355 | Test Loss:  7.2472 |
+| Test F1:   0.0906 | Test BLEU:  0.0007 |
+---------------------------------------------------------------------------
+| Step:    8000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.2011 | Train Loss: 5.9882 |
+| Test Acc:  0.1394 | Test Loss:  7.2089 |
+| Test F1:   0.0930 | Test BLEU:  0.0009 |
+---------------------------------------------------------------------------
+| Step:    9000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1983 | Train Loss: 5.6883 |
+| Test Acc:  0.1484 | Test Loss:  7.1382 |
+| Test F1:   0.1003 | Test BLEU:  0.0008 |
+---------------------------------------------------------------------------
+| Step:   10000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1603 | Train Loss: 5.8432 |
+| Test Acc:  0.1443 | Test Loss:  7.1526 |
+| Test F1:   0.0992 | Test BLEU:  0.0011 |
+---------------------------------------------------------------------------
+| Step:   11000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1834 | Train Loss: 5.8731 |
+| Test Acc:  0.1498 | Test Loss:  7.1593 |
+| Test F1:   0.0997 | Test BLEU:  0.0010 |
+---------------------------------------------------------------------------
+| Step:   12000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1469 | Train Loss: 5.8784 |
+| Test Acc:  0.1414 | Test Loss:  7.1174 |
+| Test F1:   0.1006 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   13000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1778 | Train Loss: 5.8275 |
+| Test Acc:  0.1399 | Test Loss:  7.1203 |
+| Test F1:   0.0988 | Test BLEU:  0.0011 |
+---------------------------------------------------------------------------
+| Step:   14000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.1530 | Train Loss: 6.1099 |
+| Test Acc:  0.1484 | Test Loss:  7.0964 |
+| Test F1:   0.0996 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   15000 | Epoch:   0 | LR: 0.00030000 |
+| Train Acc: 0.2000 | Train Loss: 5.7414 |
+| Test Acc:  0.1437 | Test Loss:  7.0822 |
+| Test F1:   0.1037 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   16000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.2018 | Train Loss: 5.7611 |
+| Test Acc:  0.1507 | Test Loss:  7.0573 |
+| Test F1:   0.1046 | Test BLEU:  0.0011 |
+---------------------------------------------------------------------------
+| Step:   17000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.1732 | Train Loss: 6.1433 |
+| Test Acc:  0.1472 | Test Loss:  7.0748 |
+| Test F1:   0.1060 | Test BLEU:  0.0014 |
+---------------------------------------------------------------------------
+| Step:   18000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.1924 | Train Loss: 5.8258 |
+| Test Acc:  0.1462 | Test Loss:  7.0867 |
+| Test F1:   0.1044 | Test BLEU:  0.0010 |
+---------------------------------------------------------------------------
+| Step:   19000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.1738 | Train Loss: 5.9245 |
+| Test Acc:  0.1499 | Test Loss:  7.0895 |
+| Test F1:   0.1036 | Test BLEU:  0.0000 |
+---------------------------------------------------------------------------
+| Step:   20000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.1621 | Train Loss: 6.0374 |
+| Test Acc:  0.1475 | Test Loss:  7.0787 |
+| Test F1:   0.1029 | Test BLEU:  0.0014 |
+---------------------------------------------------------------------------
+| Step:   21000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.1545 | Train Loss: 5.8794 |
+| Test Acc:  0.1502 | Test Loss:  7.0587 |
+| Test F1:   0.1015 | Test BLEU:  0.0011 |
+---------------------------------------------------------------------------
+| Step:   22000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.1851 | Train Loss: 5.8509 |
+| Test Acc:  0.1508 | Test Loss:  7.0950 |
+| Test F1:   0.1010 | Test BLEU:  0.0010 |
+---------------------------------------------------------------------------
+| Step:   23000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.1941 | Train Loss: 5.8451 |
+| Test Acc:  0.1526 | Test Loss:  7.0639 |
+| Test F1:   0.1031 | Test BLEU:  0.0013 |
+---------------------------------------------------------------------------
+| Step:   24000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.1913 | Train Loss: 5.6451 |
+| Test Acc:  0.1453 | Test Loss:  7.0892 |
+| Test F1:   0.1017 | Test BLEU:  0.0010 |
+---------------------------------------------------------------------------
+| Step:   25000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.2024 | Train Loss: 5.7328 |
+| Test Acc:  0.1464 | Test Loss:  7.0616 |
+| Test F1:   0.1030 | Test BLEU:  0.0010 |
+---------------------------------------------------------------------------
+| Step:   26000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.1885 | Train Loss: 5.9958 |
+| Test Acc:  0.1486 | Test Loss:  7.0797 |
+| Test F1:   0.1006 | Test BLEU:  0.0007 |
+---------------------------------------------------------------------------
+| Step:   27000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.1805 | Train Loss: 6.0552 |
+| Test Acc:  0.1527 | Test Loss:  7.0344 |
+| Test F1:   0.1036 | Test BLEU:  0.0000 |
+---------------------------------------------------------------------------
+| Step:   28000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.1850 | Train Loss: 5.9360 |
+| Test Acc:  0.1536 | Test Loss:  7.0551 |
+| Test F1:   0.1041 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   29000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.1760 | Train Loss: 5.9262 |
+| Test Acc:  0.1530 | Test Loss:  7.0852 |
+| Test F1:   0.1049 | Test BLEU:  0.0008 |
+---------------------------------------------------------------------------
+| Step:   30000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.1898 | Train Loss: 5.8565 |
+| Test Acc:  0.1532 | Test Loss:  7.0356 |
+| Test F1:   0.1018 | Test BLEU:  0.0009 |
+---------------------------------------------------------------------------
+| Step:   31000 | Epoch:   1 | LR: 0.00030000 |
+| Train Acc: 0.1702 | Train Loss: 5.8124 |
+| Test Acc:  0.1510 | Test Loss:  7.0497 |
+| Test F1:   0.1031 | Test BLEU:  0.0011 |
+---------------------------------------------------------------------------
+| Step:   32000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.1962 | Train Loss: 5.7060 |
+| Test Acc:  0.1470 | Test Loss:  7.0733 |
+| Test F1:   0.1030 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   33000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.1954 | Train Loss: 5.8597 |
+| Test Acc:  0.1498 | Test Loss:  7.0444 |
+| Test F1:   0.1021 | Test BLEU:  0.0013 |
+---------------------------------------------------------------------------
+| Step:   34000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.1638 | Train Loss: 5.8567 |
+| Test Acc:  0.1438 | Test Loss:  7.1354 |
+| Test F1:   0.1002 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   35000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.1906 | Train Loss: 5.8589 |
+| Test Acc:  0.1426 | Test Loss:  7.1458 |
+| Test F1:   0.1005 | Test BLEU:  0.0009 |
+---------------------------------------------------------------------------
+| Step:   36000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.1837 | Train Loss: 5.9131 |
+| Test Acc:  0.1531 | Test Loss:  7.0376 |
+| Test F1:   0.1030 | Test BLEU:  0.0011 |
+---------------------------------------------------------------------------
+| Step:   37000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.2111 | Train Loss: 5.5579 |
+| Test Acc:  0.1474 | Test Loss:  7.0859 |
+| Test F1:   0.0996 | Test BLEU:  0.0011 |
+---------------------------------------------------------------------------
+| Step:   38000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.1611 | Train Loss: 5.8455 |
+| Test Acc:  0.1518 | Test Loss:  7.0283 |
+| Test F1:   0.1029 | Test BLEU:  0.0010 |
+---------------------------------------------------------------------------
+| Step:   39000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.1438 | Train Loss: 6.0207 |
+| Test Acc:  0.1536 | Test Loss:  7.0329 |
+| Test F1:   0.1045 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   40000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.1605 | Train Loss: 6.2813 |
+| Test Acc:  0.1496 | Test Loss:  7.0347 |
+| Test F1:   0.1027 | Test BLEU:  0.0009 |
+---------------------------------------------------------------------------
+| Step:   41000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.1684 | Train Loss: 6.0428 |
+| Test Acc:  0.1497 | Test Loss:  7.0495 |
+| Test F1:   0.1015 | Test BLEU:  0.0014 |
+---------------------------------------------------------------------------
+| Step:   42000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.2105 | Train Loss: 5.6047 |
+| Test Acc:  0.1459 | Test Loss:  7.0684 |
+| Test F1:   0.1006 | Test BLEU:  0.0010 |
+---------------------------------------------------------------------------
+| Step:   43000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.1929 | Train Loss: 5.8785 |
+| Test Acc:  0.1507 | Test Loss:  7.0339 |
+| Test F1:   0.1016 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   44000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.1827 | Train Loss: 5.8632 |
+| Test Acc:  0.1535 | Test Loss:  7.0304 |
+| Test F1:   0.1021 | Test BLEU:  0.0014 |
+---------------------------------------------------------------------------
+| Step:   45000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.1573 | Train Loss: 5.8421 |
+| Test Acc:  0.1485 | Test Loss:  7.0511 |
+| Test F1:   0.1064 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   46000 | Epoch:   2 | LR: 0.00030000 |
+| Train Acc: 0.1616 | Train Loss: 5.8408 |
+| Test Acc:  0.1556 | Test Loss:  7.0361 |
+| Test F1:   0.1059 | Test BLEU:  0.0013 |
+---------------------------------------------------------------------------
+| Step:   47000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.1984 | Train Loss: 5.7793 |
+| Test Acc:  0.1539 | Test Loss:  7.0538 |
+| Test F1:   0.1058 | Test BLEU:  0.0010 |
+---------------------------------------------------------------------------
+| Step:   48000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.1891 | Train Loss: 5.9644 |
+| Test Acc:  0.1545 | Test Loss:  7.0435 |
+| Test F1:   0.1017 | Test BLEU:  0.0014 |
+---------------------------------------------------------------------------
+| Step:   49000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.2013 | Train Loss: 6.0452 |
+| Test Acc:  0.1459 | Test Loss:  7.0474 |
+| Test F1:   0.1019 | Test BLEU:  0.0010 |
+---------------------------------------------------------------------------
+| Step:   50000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.2092 | Train Loss: 5.7183 |
+| Test Acc:  0.1527 | Test Loss:  7.0419 |
+| Test F1:   0.1018 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   51000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.1927 | Train Loss: 5.9171 |
+| Test Acc:  0.1509 | Test Loss:  7.0588 |
+| Test F1:   0.1028 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   52000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.2040 | Train Loss: 5.7571 |
+| Test Acc:  0.1541 | Test Loss:  7.0341 |
+| Test F1:   0.1066 | Test BLEU:  0.0016 |
+---------------------------------------------------------------------------
+| Step:   53000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.1812 | Train Loss: 5.6230 |
+| Test Acc:  0.1520 | Test Loss:  7.0540 |
+| Test F1:   0.1039 | Test BLEU:  0.0013 |
+---------------------------------------------------------------------------
+| Step:   54000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.2054 | Train Loss: 5.8879 |
+| Test Acc:  0.1532 | Test Loss:  7.0343 |
+| Test F1:   0.1054 | Test BLEU:  0.0014 |
+---------------------------------------------------------------------------
+| Step:   55000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.2105 | Train Loss: 5.6406 |
+| Test Acc:  0.1518 | Test Loss:  7.0594 |
+| Test F1:   0.1028 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   56000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.1800 | Train Loss: 5.9617 |
+| Test Acc:  0.1480 | Test Loss:  7.0788 |
+| Test F1:   0.1010 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   57000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.1577 | Train Loss: 6.0578 |
+| Test Acc:  0.1465 | Test Loss:  7.0612 |
+| Test F1:   0.0990 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   58000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.1985 | Train Loss: 5.7053 |
+| Test Acc:  0.1515 | Test Loss:  7.0372 |
+| Test F1:   0.1011 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   59000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.1491 | Train Loss: 6.0330 |
+| Test Acc:  0.1456 | Test Loss:  7.0582 |
+| Test F1:   0.1022 | Test BLEU:  0.0010 |
+---------------------------------------------------------------------------
+| Step:   60000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.1429 | Train Loss: 6.0800 |
+| Test Acc:  0.1446 | Test Loss:  7.0666 |
+| Test F1:   0.1014 | Test BLEU:  0.0014 |
+---------------------------------------------------------------------------
+| Step:   61000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.1652 | Train Loss: 6.0701 |
+| Test Acc:  0.1489 | Test Loss:  7.0580 |
+| Test F1:   0.1014 | Test BLEU:  0.0011 |
+---------------------------------------------------------------------------
+| Step:   62000 | Epoch:   3 | LR: 0.00030000 |
+| Train Acc: 0.1778 | Train Loss: 5.9882 |
+| Test Acc:  0.1460 | Test Loss:  7.0720 |
+| Test F1:   0.1017 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   63000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.2020 | Train Loss: 5.8307 |
+| Test Acc:  0.1497 | Test Loss:  7.0653 |
+| Test F1:   0.1023 | Test BLEU:  0.0015 |
+---------------------------------------------------------------------------
+| Step:   64000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.2024 | Train Loss: 5.8343 |
+| Test Acc:  0.1433 | Test Loss:  7.0572 |
+| Test F1:   0.0998 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   65000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.1623 | Train Loss: 6.0971 |
+| Test Acc:  0.1474 | Test Loss:  7.0368 |
+| Test F1:   0.0995 | Test BLEU:  0.0009 |
+---------------------------------------------------------------------------
+| Step:   66000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.1795 | Train Loss: 5.6775 |
+| Test Acc:  0.1485 | Test Loss:  7.0575 |
+| Test F1:   0.1014 | Test BLEU:  0.0011 |
+---------------------------------------------------------------------------
+| Step:   67000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.1813 | Train Loss: 5.9760 |
+| Test Acc:  0.1469 | Test Loss:  7.0757 |
+| Test F1:   0.1019 | Test BLEU:  0.0010 |
+---------------------------------------------------------------------------
+| Step:   68000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.1924 | Train Loss: 5.4865 |
+| Test Acc:  0.1481 | Test Loss:  7.0321 |
+| Test F1:   0.0976 | Test BLEU:  0.0010 |
+---------------------------------------------------------------------------
+| Step:   69000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.1889 | Train Loss: 5.8755 |
+| Test Acc:  0.1458 | Test Loss:  7.0395 |
+| Test F1:   0.0997 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   70000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.1830 | Train Loss: 5.9784 |
+| Test Acc:  0.1448 | Test Loss:  7.0477 |
+| Test F1:   0.0979 | Test BLEU:  0.0010 |
+---------------------------------------------------------------------------
+| Step:   71000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.2025 | Train Loss: 5.7145 |
+| Test Acc:  0.1528 | Test Loss:  7.0312 |
+| Test F1:   0.1021 | Test BLEU:  0.0012 |
+---------------------------------------------------------------------------
+| Step:   72000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.1689 | Train Loss: 6.0958 |
+| Test Acc:  0.1460 | Test Loss:  7.0535 |
+| Test F1:   0.1043 | Test BLEU:  0.0011 |
+---------------------------------------------------------------------------
+| Step:   73000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.2135 | Train Loss: 5.6289 |
+| Test Acc:  0.1456 | Test Loss:  7.0931 |
+| Test F1:   0.0983 | Test BLEU:  0.0009 |
+---------------------------------------------------------------------------
+| Step:   74000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.1879 | Train Loss: 5.8310 |
+| Test Acc:  0.1484 | Test Loss:  7.0453 |
+| Test F1:   0.0974 | Test BLEU:  0.0011 |
+---------------------------------------------------------------------------
+| Step:   75000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.1873 | Train Loss: 5.7272 |
+| Test Acc:  0.1470 | Test Loss:  7.0803 |
+| Test F1:   0.0994 | Test BLEU:  0.0011 |
+---------------------------------------------------------------------------
+| Step:   76000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.1821 | Train Loss: 5.8062 |
+| Test Acc:  0.1498 | Test Loss:  7.0487 |
+| Test F1:   0.1032 | Test BLEU:  0.0014 |
+---------------------------------------------------------------------------
+| Step:   77000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.1824 | Train Loss: 5.8997 |
+| Test Acc:  0.1535 | Test Loss:  7.0310 |
+| Test F1:   0.1050 | Test BLEU:  0.0010 |
+---------------------------------------------------------------------------
+| Step:   78000 | Epoch:   4 | LR: 0.00030000 |
+| Train Acc: 0.1883 | Train Loss: 5.6802 |
+| Test Acc:  0.1538 | Test Loss:  7.0548 |
+| Test F1:   0.1029 | Test BLEU:  0.0011 |
+---------------------------------------------------------------------------

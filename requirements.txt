@@ -6,3 +6,4 @@ transformers
 datasets 
 evaluate
 nltk
+scikit-learn
